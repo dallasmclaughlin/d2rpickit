@@ -29,4 +29,5 @@ These files are compatible with loot filtering tools that support the NIP format
 
 ## Acknowledgments
 Based on NIP format standards from the [Blizzhackers Pickit Guide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md)
-This directory originated from the core pickit files downloaded from (https://github.com/hectorgimenez/koolo)
+
+This respository is a modified version of the core pickit files available in [Koolo](https://github.com/hectorgimenez/koolo)
