@@ -1,5 +1,3 @@
-Here's a simple README for your GitHub repository:
-
 # D2R Pickit Files
 
 ## Overview
