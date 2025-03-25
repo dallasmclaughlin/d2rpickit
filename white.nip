@@ -1,6 +1,11 @@
 [type] == armor 			&& [quality] <= superior # [defense] >= 700 && ([sockets] == 3 || [sockets] == 4) 								// Eth or non-Eth Treachery & Fortitude bases
 //[name] == monarch 			&& [quality] <= superior && [flag] != ethereal && [sockets] == 4 						// Any 4os Monarch Spirit base
 [name] == monarch 			&& [quality] == superior && [flag] != ethereal # [enhanceddefense] > 10 && [sockets] == 4 						// Superior 4os Monarch Spirit base
+//[name] == colossusvoulge 	&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 												// Insight or Infinity base
+//[name] == crypticaxe 		&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 												// Insight or Infinity base
+//[name] == giantthresher 	&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 												// Insight or Infinity base
+//[name] == greatpoleaxe 		&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 												// Insight or Infinity base
+//[name] == thresher 			&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 												// Insight or Infinity base
 [name] == colossusvoulge 	&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
 [name] == crypticaxe 		&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
 [name] == giantthresher 	&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
