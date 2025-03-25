@@ -168,9 +168,8 @@
 [type] == amulet 				&& [quality] == unique # [strength] >= 12 && [fireresist] >= 25																									// saracen's chance perfect
 [type] == amulet				&& [quality] == unique # [dexterity] >= 25																														// the cat's eye
 [type] == amulet 				&& [quality] == unique # [lightresist] >= 35																													// highlord's wrath
-[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [fireresist] >= 20     																						// mara's kaleidoscope test because not sure
-[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [allresist] >= 20      																						// mara's kaleidoscope test because not sure
-//[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [fireresist] >= 30     																						// mara's kaleidoscope perfect
+[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [allresist] >= 20      																						// mara's kaleidoscope
+//[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [allresist] >= 30     																						// mara's kaleidoscope perfect
 [type] == amulet				&& [quality] == unique # [defensiveaurasskilltab] >= 2 && [itemdemondamagepercent] >= 50 && [itemdemontohit] >= 250 && [itemundeaddamagepercent] >= 50 && [itemundeadtohit] >= 250 // seraph's hymn perfect
 [type] == amulet 				&& [quality] == unique # [allresist] >= 33 && [plusdefense] >= 325  																							// metalgrid 
 //[type] == amulet && [quality] == unique # [allresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
