@@ -172,10 +172,8 @@
 [type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [allresist] >= 20      																						// mara's kaleidoscope test because not sure
 //[type] == amulet 				&& [quality] == unique # [itemallskills] == 2 && [fireresist] >= 30     																						// mara's kaleidoscope perfect
 [type] == amulet				&& [quality] == unique # [defensiveaurasskilltab] >= 2 && [itemdemondamagepercent] >= 50 && [itemdemontohit] >= 250 && [itemundeaddamagepercent] >= 50 && [itemundeadtohit] >= 250 // seraph's hymn perfect
-[type] == amulet 				&& [quality] == unique # [fireresist] >= 33 && [plusdefense] >= 300																								// metalgrid test because not sure
-[type] == amulet 				&& [quality] == unique # [coldresist] >= 33 && [plusdefense] >= 300																								// metalgrid test because not sure
-[type] == amulet 				&& [quality] == unique # [allresist] >= 33 && [plusdefense] >= 325  																							// metalgrid test because not sure
-//[type] == amulet 				&& [quality] == unique # [coldresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
+[type] == amulet 				&& [quality] == unique # [allresist] >= 33 && [plusdefense] >= 325  																							// metalgrid 
+//[type] == amulet && [quality] == unique # [allresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
 
 // unique jewels
 //[name] == jewel 				&& [quality] == unique 																																			// any rainbow
