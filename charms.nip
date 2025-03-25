@@ -1,0 +1,141 @@
+// grand charms skillers + godly stats
+[name] == grandcharm && [quality] == magic # [itemaddskilltab] >= 1 && ([maxhp] >= 25 || [strength] >= 6 || [dexterity] >= 6 || [fhr] >= 12 || [frw] >= 7)  // Skill GC catch all
+
+// grand charms skillers
+[name] == grandcharm 		&& [quality] == magic # [fireskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [coldskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [lightningskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [martialartsskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [javelinandspearskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [palicombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [necromancersummoningskilltab] >= 1
+
+// grand charms skillers + fhr
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [fireskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [coldskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [lightningskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [martialartsskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [javelinandspearskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [bowandcrossbowskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [palicombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [elementalskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [shapeshiftingskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [druidsummoningskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [barbcombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [poisonandboneskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [fhr] >= 12 && [necromancersummoningskilltab] >= 1
+
+// grand charms skillers + frw
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [fireskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [coldskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [lightningskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [martialartsskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [javelinandspearskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [bowandcrossbowskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [palicombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [elementalskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [shapeshiftingskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [druidsummoningskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [barbcombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [poisonandboneskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [frw] >= 5 && [necromancersummoningskilltab] >= 1
+
+// grand charms skillers + hp
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [fireskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [coldskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [lightningskilltab] >= 1 
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [martialartsskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [javelinandspearskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [bowandcrossbowskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [palicombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [elementalskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [shapeshiftingskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [druidsummoningskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [barbcombatskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [poisonandboneskilltab] >= 1
+[name] == grandcharm 		&& [quality] == magic # [maxhp] >= 30 && [necromancersummoningskilltab] >= 1
+
+// grand charms ar + damage and more
+[name] == grandcharm 		&& [quality] == magic # [tohit] >= 70  && [maxdamage] >= 10
+[name] == grandcharm 		&& [quality] == magic # [tohit] >= 70  && [maxdamage] >= 8 && [frw] >= 5
+[name] == grandcharm 		&& [quality] == magic # [tohit] >= 70  && [maxdamage] >= 8 && [fhr] >= 7
+[name] == grandcharm 		&& [quality] == magic # [tohit] >= 70  && [maxdamage] >= 8 && [maxhp] >= 25
+[name] == grandcharm 		&& [quality] == magic # [tohit] >= 120 && [maxhp] >= 30
+
+//small charms resist
+[name] == smallcharm && [quality] == magic # [coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9
+[name] == smallcharm && [quality] == magic # [allresist] >= 5
+
+//small charms poison
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 128 && [poisonlength] == 4 // foul small charm
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 205 && [poisonlength] == 5 // toxic small charm
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 299 && [poisonlength] == 6 // pestilent small charm
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 104 && [poisonlength] == 8 // septic small charm of pestilence        -  81 damage over 8 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 138 && [poisonlength] == 9 // septic small charm of anthrax           - 121 damage over 9 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 138 && [poisonlength] == 9 // septic small charm of anthrax  
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 149 && [poisonlength] == 7 // foul small charm of blight              - 102 damage over 7 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 167 && [poisonlength] == 8 // foul small charm of venom               - 130 damage over 8 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 180 && [poisonlength] == 9 // foul small charm of pestilence          - 158 damage over 9 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 214 && [poisonlength] == 10 // foul small charm of anthrax            - 209 damage over 10 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 226 && [poisonlength] == 8 // toxic small charm of blight             - 177 damage over 8 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 244 && [poisonlength] == 9 // toxic small charm of venom              - 214 damage over 9 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 257 && [poisonlength] == 10 // toxic small charm of pestilence        - 251 damage over 10 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 291 && [poisonlength] == 11 // toxic small charm of anthrax           - 313 damage over 11 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 320 && [poisonlength] == 9 // pestilent small charm of blight         - 281 damage over 9 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 338 && [poisonlength] == 10 // pestilent small charm of venom         - 330 damage over 10 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 351 && [poisonlength] == 11 // pestilent small charm of pestilence    - 377 damage over 11 seconds
+[name] == smallcharm 		&& [quality] == magic # [poisonmaxdam] >= 385 && [poisonlength] == 12 // pestilent small charm of anthrax       - 451 damage over 12 seconds
+
+//small charms hp
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 20
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 15 && [maxmana] >= 11
+[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [fireresist] >= 9
+[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [coldresist] >= 9
+[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [lightresist] >= 9
+[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [poisonresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 15 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [tohit] >= 17 && [maxdamage] >= 2
+[name] == smallcharm 		&& [quality] == magic # [maxdamage] >= 3 && [tohit] >= 15													// just in case
+[name] == smallcharm 		&& [quality] == magic # [maxdamage] >= 3 && [tohit] >= 15 && [maxhp] >= 15									// just in case
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [firemindam] >= 8 && [firemaxdam] >= 29
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [lightmaxdam] >= 71
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [coldmindam] >= 10 && [coldmaxdam] >= 17
+
+//small charms magic find
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7 && [fireresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7 && [coldresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7 && [lightresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7 && [poisonresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7 && [maxdamage] >= 2 && [tohit] >= 15
+
+//small charms frw
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [fireresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [coldresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [lightresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [poisonresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [tohit] >= 17 && [maxdamage] >= 2
+[name] == smallcharm 		&& [quality] == magic # [frw] >= 5 && [tohit] >=53
+
+//small charms fhr
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [fireresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [coldresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [lightresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [poisonresist] >= 9
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [tohit] >= 17 && [maxdamage] >= 2
+[name] == smallcharm 		&& [quality] == magic # [fhr] >= 5 && [tohit] >= 33
+
+//small charms attack rating
+[name] == smallcharm && [quality] == magic # [tohit] >= 25 && [maxhp] >= 15
+[name] == smallcharm && [quality] == magic # [tohit] >= 35 && ([fhr] == 5 || [frw] == 3)
+[name] == smallcharm && [quality] == magic # [tohit] >= 34 && ([strength] == 2 || [dexterity] == 2)
+
+// unique charms
+[name] == grandcharm 			&& [quality] == unique # [itemcoldpierce] <= 72 																												// cold rupture
+[name] == grandcharm			&& [quality] == unique # [itemfirepierce] <= 72 																												// flame rift
+[name] == grandcharm 			&& [quality] == unique # [itemlightningpierce] <= 72 																											// crack of heavens
+[name] == grandcharm 			&& [quality] == unique # [itempoisonpierce] <= 72 																												// rotting fissure
+[name] == grandcharm 			&& [quality] == unique # [passivephysicalpierce] <= 11 																											// bone break

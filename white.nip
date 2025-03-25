@@ -1,0 +1,34 @@
+[type] == armor 			&& [quality] <= superior # [defense] >= 700 && ([sockets] == 3 || [sockets] == 4) 								// Eth or non-Eth Treachery & Fortitude bases
+[name] == monarch 			&& [quality] == superior && [flag] != ethereal # [enhanceddefense] > 10 && [sockets] == 4 						// Superior 4os Monarch
+[name] == colossusvoulge 	&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
+[name] == crypticaxe 		&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
+[name] == giantthresher 	&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
+[name] == greatpoleaxe 		&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
+[name] == thresher 			&& [quality] <= superior && [flag] == ethereal # [sockets] == 4 												// Eth Insight base
+[name] == warspike 			&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// BOTD, Death
+[name] == berserkeraxe 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// BOTD, Death
+[name] == berserkeraxe 		&& [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Grief, Last Wish
+[name] == gloriousaxe 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Death
+[name] == decapitator 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Death
+[name] == thundermaul 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && ([sockets] == 5 || [sockets] == 6)   // BOTD
+[name] == colossusblade 	&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && ([sockets] == 5 || [sockets] == 6)   // BOTD, Death
+[name] == colossusblade 	&& [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Grief
+[name] == colossussword 	&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Death
+[name] == colossussword 	&& [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Grief
+[name] == zweihander 		&& [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 10 && [sockets] == 5  						// Grief
+[name] == archonstaff 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 6  						// BOTD
+[name] == warpike 			&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 6  						// BOTD
+[name] == ghostspear 		&& [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 10 && [sockets] == 6  						// BOTD
+[name] == grandmatronbow && [quality] <= superior # [bowandcrossbowskilltab] >= 3 && [sockets] == 4											// faith
+[name] == matriarchalbow && [quality] <= superior # [bowandcrossbowskilltab] >= 3 && [sockets] == 4 										// faith
+[type] == staff && [quality] <= superior # [skillenergyshield] == 3 && [skillchillingarmor] >= 2 && ([sockets] == 4 || [sockets] == 5)
+[type] == staff && [quality] <= superior # [skillenergyshield] == 3 && [skillshiverarmor] >= 2 && ([sockets] == 4 || [sockets] == 5)
+[type] == staff && [quality] <= superior # [skillenergyshield] == 3 && [skillthunderstorm] >= 2 && ([sockets] == 4 || [sockets] == 5)
+[type] == wand && [quality] <= superior # [skillbonespear] >= 3 && [skilldecrepify] >= 1 && ([skilllowerresist] >= 3 || [skillrevive] >= 3 || [skillbonespirit] >= 3) && [sockets] >= 2
+[name] == warscepter || [name] == divinescepter || [name] == caduceus && [quality] <= superior # [sockets] == 5 && ([skillfistoftheheavens] + [skillconviction] >= 6)
+[name] == warscepter || [name] == divinescepter || [name] == caduceus && [quality] <= superior # [sockets] == 5 && [skillholyshield] >= 3
+[name] == warscepter || [name] == divinescepter || [name] == caduceus && [quality] <= superior # [sockets] == 5 && ([skillblessedhammer] + [skillconcentration] >= 6)
+([name] == runictalons || [name] == feralclaws || [name] == suwayyah || [name] == greatertalons) && [flag] != ethereal && [quality] <= superior # [sockets] == 3 && [skilllightningsentry] >= 3 && ([skillmindblast] >= 3 && ([skillvenom] >= 2 || [skillweaponblock] >= 2 || [skillshadowmaster] >= 2) || [skillvenom] >= 3 && ([skillmindblast] >= 2 || [skillweaponblock] >= 2 || [skillshadowmaster] >= 2) || [skillshadowmaster] >= 3 && ([skillmindblast] >= 2 || [skillweaponblock] >= 2 || [skillvenom] >= 2) || [skillweaponblock] >= 3 && ([skillmindblast] >= 2 || [skillshadowmaster] >= 2 || [skillvenom] >= 2))
+([name] == runictalons || [name] == greatertalons) && [flag] != ethereal && [quality] <= superior # ([sockets] == 3 || [sockets] == 0) && [skillphoenixstrike] >= 3   // mosaic claws
+([type] == circlet || [name] == diadem || [class] == elite && [type] == helm) && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 10 && [sockets] == 3
+[type] == pelt 			&& [quality] <= superior && [flag] != ethereal # [skilltornado] == 3 && ([skillcyclonearmor] >= 3 || [skillhurricane] >= 3 || [skilloaksage] >= 3) && ([sockets] == 3)

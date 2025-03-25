@@ -1,0 +1,7 @@
+// caster amulets
+[type] == amulet 	&& [quality] == crafted # [itemaddclassskills] >= 2 && [fcr] >= 10
+
+// blood gloves
+[type] == gloves 	&& [quality] == crafted # [ias] == 20 && [itemaddclassskills] >= 2
+[type] == gloves	&& [quality] == crafted # [itemcrushingblow] >= 9 && [ias] == 20 && [dexterity]+[strength] >= 20
+[type] == gloves	&& [quality] == crafted # [itemcrushingblow] >= 5 && [ias] == 20 && [dexterity]+[strength] >= 25 && [maxhp] >= 17

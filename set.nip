@@ -1,0 +1,4 @@
+// tal rasha's wrappings
+[name] == lacqueredplate 	&& [quality] == set																								// tal rasha's guardianship
+[type] == amulet 			&& [quality] == set # [sorceressskills] == 2 																	// tal rasha's adjucation
+[name] == meshbelt 			&& [quality] == set # [itemmagicbonus] >= 15 																	// tal rasha's fine-spun cloth
