@@ -135,7 +135,7 @@
 [name] == furyvisor		 		&& [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 150 && [warcriesskilltab] >= 3 && [skillferalrage] >= 6 && [skilllycanthropy] >= 6 && [skillwerewolf] >= 6 && [strength] >= 15 && [dexterity] >= 15 && [vitality] >= 15 // wolfhowl perfect
 
 // unique sorceress
-[name] == swirlingcrystal 		&& [quality] == unique && [flag] != ethereal 																													// the oculus
+//[name] == swirlingcrystal 		&& [quality] == unique && [flag] != ethereal 																													// the oculus
 [name] == swirlingcrystal 		&& [quality] == unique && [flag] == ethereal 																													// eth the oculus
 [name] == eldritchorb 			&& [quality] == unique # [sorceressskills] == 3 && ([passivefiremastery] >= 18 || [passiveltngmastery] >= 18)													// eschuta's temper +3 +18
 //[name] == eldritchorb 		&& [quality] == unique # [sorceressskills] >= 3 && [energy] >= 30 && [passivefiremastery] >= 20 && [passiveltngmastery] >= 20									// eschuta's temper perfect
@@ -168,11 +168,11 @@
 [type] == amulet 				&& [quality] == unique # [strength] >= 12 && [fireresist] >= 25																									// saracen's chance perfect
 [type] == amulet				&& [quality] == unique # [dexterity] >= 25																														// the cat's eye
 [type] == amulet 				&& [quality] == unique # [lightresist] >= 35																													// highlord's wrath
-[type] == amulet         && [quality] == unique # [strength] == 5 && [coldresist] >= 20                                               // mara's kaleidoscope
-[type] == amulet       && [quality] == unique # [strength] == 5 && [coldresist] >= 30                                               // mara's kaleidoscope perfect
+[type] == amulet         		&& [quality] == unique # [strength] == 5 && [coldresist] >= 20                                               	// mara's kaleidoscope
+//[type] == amulet       		&& [quality] == unique # [strength] == 5 && [coldresist] >= 30                                               // mara's kaleidoscope perfect
 [type] == amulet				&& [quality] == unique # [defensiveaurasskilltab] >= 2 && [itemdemondamagepercent] >= 50 && [itemdemontohit] >= 250 && [itemundeaddamagepercent] >= 50 && [itemundeadtohit] >= 250 // seraph's hymn perfect
-[type] == amulet       && [quality] == unique # [fireresist] >= 33 && [plusdefense] >= 325  																							// metalgrid 
-//[type] == amulet && [quality] == unique # [fireresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
+[type] == amulet       			&& [quality] == unique # [fireresist] >= 33 && [plusdefense] >= 325  																							// metalgrid 33 res 325 d
+//[type] == amulet 				&& [quality] == unique # [fireresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
 
 // unique jewels
 //[name] == jewel 				&& [quality] == unique 																																			// any rainbow
