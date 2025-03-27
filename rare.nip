@@ -1,29 +1,4 @@
-// rare jewels
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 30 && ([strength]+[dexterity] >= 15)
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 30 && [strength] >= 9 && [dexterity] >= 9
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 30 && ([strength] >= 9 || [dexterity] >= 9) && ([itemmagicbonus] >= 15 || [itemgoldbonus] >= 30)
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 30 && [fhr] >= 7 && ([strength] >= 9 || [dexterity] >= 9 || [firemaxdam] >= 50 || [defense] >= 40 || [itemmagicbonus] >= 15 || [itemgoldbonus] >= 30)
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 30 && [tohit] >= 60 && ([firemaxdam] >= 50 || [lightmaxdam] >= 100 || [fhr] >= 7 || [defense] >= 40 || [itemmagicbonus] >= 15 || [itemgoldbonus] >= 30)
-[type] == jewel && [quality] == rare # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
-[type] == jewel && [quality] == rare # [coldresist] >= 30
-[type] == jewel && [quality] == rare # [fireresist] >= 30
-[type] == jewel && [quality] == rare # [lightresist] >= 30
-[type] == jewel && [quality] == rare # [poisonresist] >= 30
 
-// ED + Max Damage + ToHit (Melee Jewel)
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 26 && [maxdamage] >= 7 && [tohit] >= 50
-
-// ED + FHR + Strength (Duelist Jewel)
-[type] == jewel && [quality] == rare # [enhanceddamage] >= 26 && [fhr] >= 7 && [strength] >= 7
-
-// Resist + Max HP + Max Mana (Tank Jewel)
-[type] == jewel && [quality] == rare # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32 && [maxhp] >= 7 && [maxmana] >= 12
-
-// MF + Max HP + Resist (Magic Find Jewel)
-[type] == jewel && [quality] == rare # [itemmagicbonus] >= 7 && [maxhp] >= 7 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32
-
-// Req -15% + Strength + Dex (Low Req Jewel)
-[type] == jewel && [quality] == rare # [itemreqpercent] == -15 && [strength] >= 7 && [dexterity] >= 7
 
 // rare rings
 [type] == ring 			&& [quality] == rare # [fcr] == 10 && [tohit] >= 100 && [lifeleech]+[manaleech] >= 10

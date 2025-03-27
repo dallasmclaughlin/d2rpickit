@@ -2,6 +2,7 @@
 [name] == vampirebonegloves 	&& [quality] == unique && [flag] != ethereal # [strength] == 15 && [lifeleech] >= 10 																			// dracul's grasp 15 str 10 ll
 //[name] == vampirebonegloves 	&& [quality] == unique && [flag] != ethereal # [strength] == 15 && [lifeleech] >= 10 && [itemhealafterkill] >= 10 && [enhanceddefense] >= 120					// dracul's grasp perfect
 [name] == chaingloves 			&& [quality] == unique && [flag] != ethereal # [itemmagicbonus] >= 40																							// chance guards 40 mf
+[name] == lightgauntlets 		&& [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 30 																							// magefist perfect
 [name] == ogregauntlets 		&& [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [strength] >= 20																		// steelrend good
 //[name] == ogregauntlets 		&& [quality] == unique && [flag] != ethereal # [enhanceddamage] >= 60 && [strength] >= 20 && [plusdefense] >= 210												// steelrend perfect
 
@@ -160,7 +161,7 @@
 [type] == ring 					&& [quality] == unique # [maxhp] >= 40 && [magicdamagereduction] == 15																							// dwarf star perfect
 [type] == ring					&& [quality] == unique # [dexterity] >= 18 && [tohit] >= 220																									// raven frost 18/220
 //[type] == ring				&& [quality] == unique # [dexterity] >= 20 && [tohit] >= 250																									// raven frost perfect
-[type] == ring 					&& [quality] == unique # [lifeleech] >= 5              																							// bul-kathos' wedding band perfect
+[type] == ring 					&& [quality] == unique # [lifeleech] >= 5              																											// bul-kathos' wedding band perfect
 [type] == ring 					&& [quality] == unique # [poisonresist] >= 30 && [normaldamagereduction] >= 7																					// nature's peace perfect
 [type] == ring 					&& [quality] == unique # [itemabsorblightpercent] >= 20																											// wisp protector
 
@@ -173,13 +174,4 @@
 [type] == amulet				&& [quality] == unique # [defensiveaurasskilltab] >= 2 && [itemdemondamagepercent] >= 50 && [itemdemontohit] >= 250 && [itemundeaddamagepercent] >= 50 && [itemundeadtohit] >= 250 // seraph's hymn perfect
 [type] == amulet       			&& [quality] == unique # [fireresist] >= 33 && [plusdefense] >= 325  																							// metalgrid 33 res 325 d
 //[type] == amulet 				&& [quality] == unique # [fireresist] >= 35 && [plusdefense] >= 350 && [tohit] >= 450																			// metalgrid perfect
-
-// unique jewels
-//[name] == jewel 				&& [quality] == unique 																																			// any rainbow
-[name] == jewel 				&& [quality] == unique # [itemcoldskilldamage] >= 4 && [itemcoldpierce] >= 4  																					// Cold Facet 4/4+
-[name] == jewel 				&& [quality] == unique # [itemfireskilldamage] >= 4 && [itemfirepierce] >= 4  																					// Fire Facet 4/4+
-[name] == jewel 				&& [quality] == unique # [itemlightningskilldamage] >= 4 && [itemlightningpierce] >= 4 												 							// Lightning Facet 4/4+
-
-
-
 

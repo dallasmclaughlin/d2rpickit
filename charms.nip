@@ -1,5 +1,15 @@
-// grand charms skillers + godly stats
-[name] == grandcharm && [quality] == magic # [itemaddskilltab] >= 1 && ([maxhp] >= 30 || [strength] >= 6 || [dexterity] >= 6 || [fhr] >= 12 || [frw] >= 7)  // Skill GC catch all
+// grand charms skillers + strong stats
+[name] == grandcharm && [quality] == magic # [itemaddskilltab] >= 1 && ([maxhp] >= 30 || [strength] >= 6 || [dexterity] >= 6 || [fhr] >= 12 || [frw] >= 5)  // Skill GC catch all
+
+// grand charms with perfect rolls
+[name] == grandcharm 	&& [quality] == magic # [maxdamage] >= 14 && [tohit] >= 76
+[name] == grandcharm 	&& [quality] == magic # [maxdamage] >= 4 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30) 
+[name] == grandcharm && [quality] == magic # [dexterity] >= 6 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == grandcharm 	&& [quality] == magic # [strength] >= 6 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == grandcharm	&& [quality] == magic # [maxhp] >= 45 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == grandcharm 	&& [quality] == magic # [itemgoldbonus] >= 40 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == grandcharm 	&& [quality] == magic # [fhr] >= 12 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == grandcharm 	&& [quality] == magic # [frw] >= 7 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
 
 // grand charms skillers
 [name] == grandcharm 		&& [quality] == magic # [fireskilltab] >= 1
@@ -62,6 +72,21 @@
 [name] == grandcharm 		&& [quality] == magic # [tohit] >= 70  && [maxdamage] >= 8 && [maxhp] >= 25
 [name] == grandcharm 		&& [quality] == magic # [tohit] >= 120 && [maxhp] >= 30
 
+// perfect small charms
+[name] == smallcharm && [quality] == magic # [plusdefense] >= 30 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [tohit] >= 36 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [maxmana] >= 17 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [fireresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [coldresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [lightresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [poisonresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # [mindamage] >= 1 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3)   
+[name] == smallcharm && [quality] == magic # [maxdamage] >= 3 && [tohit] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == smallcharm && [quality] == magic # (([firemaxdam] >= 29 || [lightmaxdam] >= 71 || [coldmaxdam] >= 20) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3)) 
+[name] == smallcharm && [quality] == magic # [firemaxdam] >= 42 || [lightmaxdam] >= 99 || [coldmaxdam] >= 29
+[name] == smallcharm && [quality] == magic # [poisonlength]*[poisonmaxdam]/256 >= 141 // value from muddy_waters@epvp. this is probably a little lower than perfect. 
+
 //small charms resist
 [name] == smallcharm && [quality] == magic # [coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9
 [name] == smallcharm && [quality] == magic # [allresist] >= 5
@@ -89,14 +114,7 @@
 //small charms hp
 [name] == smallcharm 		&& [quality] == magic # [maxhp] >= 20
 [name] == smallcharm 		&& [quality] == magic # [maxhp] >= 15 && [maxmana] >= 11
-[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [fireresist] >= 9
-[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [coldresist] >= 9
-[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [lightresist] >= 9
-[name] == smallcharm		&& [quality] == magic # [maxhp] >= 15 && [poisonresist] >= 9
-[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 15 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
-[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [firemindam] >= 8 && [firemaxdam] >= 29
-[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [lightmaxdam] >= 71
-[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && [coldmindam] >= 10 && [coldmaxdam] >= 17
+[name] == smallcharm 		&& [quality] == magic # [maxhp] >= 17 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
 
 //small charms magic find
 [name] == smallcharm 		&& [quality] == magic # [itemmagicbonus] >= 7
@@ -129,12 +147,11 @@
 [name] == smallcharm 		&& [quality] == magic # [tohit] >= 25 && [maxhp] >= 15
 [name] == smallcharm 		&& [quality] == magic # [tohit] >= 35 && ([fhr] == 5 || [frw] == 3)
 [name] == smallcharm 		&& [quality] == magic # [tohit] >= 34 && ([strength] == 2 || [dexterity] == 2)
+[name] == smallcharm 		&& [quality] == magic # [maxdamage] >= 3 && [tohit] >= 20	 												// 3/20
 [name] == smallcharm 		&& [quality] == magic # [maxdamage] >= 3 && [tohit] >= 17 && [maxhp] >= 17									// 3/17/17+
 
-
-// unique charms
-[name] == grandcharm 			&& [quality] == unique # [itemcoldpierce] <= 72 																												// cold rupture
-[name] == grandcharm			&& [quality] == unique # [itemfirepierce] <= 72 																												// flame rift
-[name] == grandcharm 			&& [quality] == unique # [itemlightningpierce] <= 72 																											// crack of heavens
-[name] == grandcharm 			&& [quality] == unique # [itempoisonpierce] <= 72 																												// rotting fissure
-[name] == grandcharm 			&& [quality] == unique # [passivephysicalpierce] <= 11 																											// bone break
+// unique grand charms
+[name] == grandcharm 			&& [quality] == unique # [coldresist] >= -72  																												// cold rupture
+[name] == grandcharm			&& [quality] == unique # [fireresist] >= -72  																												// flame rift
+[name] == grandcharm 			&& [quality] == unique # [lightresist] >= -72 																											// crack of heavens
+[name] == grandcharm 			&& [quality] == unique # [poisonresist] >= -72 																												// rotting fissure

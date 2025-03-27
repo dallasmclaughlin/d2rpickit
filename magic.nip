@@ -1,11 +1,3 @@
-// magic jewels
-[type] == jewel 			&& [quality] == magic # ([ias] >= 15) || ([plusdefense] >= 64) || ([maxdamage] >= 15) || ([enhanceddamage] >= 37) || ([tohit] >= 100) || ([coldresist] >= 30 || [fireresist] >= 30 || [lightresist] >= 30 || [poisonresist] >= 30) || ([maxmana] >= 20) || ([maxhp] >= 20)
-[type] == jewel 			&& [quality] == magic # [ias] >= 15 || [plusdefense] >= 64 || [maxdamage] >= 15 || [enhanceddamage] >= 37 || [tohit] >= 100 || ([coldresist] >= 30 || [fireresist] >= 30 || [lightresist] >= 30 || [poisonresist] >= 30) || [maxmana] >= 20 || [maxhp] >= 20
-[type] == jewel 			&& [quality] == magic # [enhanceddamage] >= 35 && [maxdamage] >= 13 && [tohit] >= 90
-[type] == jewel 			&& [quality] == magic # [enhanceddamage] >= 35 && [ias] >= 15  // IAS + Max Damage Jewel
-[type] == jewel 			&& [quality] == magic # [ias] == 15 && [fireresist] >= 20  // IAS + Fire Resist Jewel
-[type] == jewel 			&& [quality] == magic # ([strength] >= 9 || [dexterity] >= 9 || [coldresist] >= 20 || [fireresist] >= 20 || [lightresist] >= 20 || [poisonresist] >= 20 || [fhr] >= 7 || [itemreqpercent] == -15) && ([ias] >= 15 || [maxdamage] >= 15 || [enhanceddamage] >= 35 || [tohit] >= 100 || [maxmana] >= 10 || [maxhp] >= 10)
-
 // magic rings
 [type] == ring 				&& [quality] == magic # [itemmagicbonus] >= 40
 [type] == ring 				&& [quality] == magic # [fcr] >= 10 && [maxmana] >= 100
